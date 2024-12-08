@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Додати книгу</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="login.html">Вхід</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Додати нову книгу</h1>
+
+  <form id="add-book-form">
+    <label for="title">Назва книги:</label>
+    <input type="text" id="title" name="title" required><br>
+
+    <label for="author">Автор:</label>
+    <input type="text" id="author" name="author" required><br>
+
+    <label for="description">Опис книги:</label>
+    <textarea id="description" name="description" required></textarea><br>
+
+    <button type="submit">Додати книгу</button>
+  </form>
+
+  <footer>
+    <p>&copy; 2024, Всі права захищені</p>
+  </footer>
+</body>
+</html>
